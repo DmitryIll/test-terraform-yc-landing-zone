@@ -1,4 +1,4 @@
-# Yandex Cloud Organization Bootstrap
+# Yandex Cloud Landing Zone
 
 ## Introduction
 This repository presents a module for creating a cloud infrastructure for an organization in accordance with the recommendations of Yandex Cloud architects. The module includes:

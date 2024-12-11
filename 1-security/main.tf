@@ -26,7 +26,7 @@ module "audit_trails" {
       resource_type = "organization-manager.organization"
     }
   ]
-
+  # !!! Billable resources
   # # filters applied to data-plane events
   # # IMPORTANT: collection and storage of data-plane events might be billale (see documenation)
   # data_events_filter = [
