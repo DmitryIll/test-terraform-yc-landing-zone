@@ -17,7 +17,14 @@ terraform {
   }
 }
 
+# provider "yandex" {
+# }
+
 provider "yandex" {
+  token = "${file("./yatoken")}"
+  cloud_id = var.organization_id
+  # folder_id = 
+  # zone = local.zone
 }
 
 provider "aws" {
