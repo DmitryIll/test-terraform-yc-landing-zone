@@ -23,7 +23,7 @@ terraform {
 provider "yandex" {
   token = "${file("./yatoken")}"
   cloud_id = var.organization_id
-  # folder_id = 
+  folder_id = "b1goqpmqf33kl450j47i"
   # zone = local.zone
 }
 
